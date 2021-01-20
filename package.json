@@ -1,0 +1,23 @@
+{
+  "name": "rspan-root",
+  "version": "1.0.0",
+  "description": "Because I've been busy with work and moved away from academics, this tutorial has not been updated for a couple of years. The broad strokes and principles are the same, and I still get email from people saying that it works and is helpful, but quite a few things have changed - obviously there are new versions of many of the dependencies, including JsPsych itself. If you follow this tutorial and decide to deploy something of your own, I'd appreciate if you could submit a PR with updates so we could keep this tutorial up to date.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valilm/rspan-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valilm/rspan-node/issues"
+  },
+  "homepage": "https://github.com/valilm/rspan-node#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
