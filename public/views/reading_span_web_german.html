@@ -1555,7 +1555,12 @@ function saveData(filename, filedata){
 //create random participant number
 var subject_ID = Math.floor(Math.random()*10000);
 
+
 //initialise experiment
+
+
+// The following has to be modified, so that it sends the data to the Postgres database
+
 jsPsych.init({
    timeline: timeline,
    fullscreen: true,
@@ -1563,6 +1568,9 @@ jsPsych.init({
         saveData("reading_span_web_german_" + subject_ID + ".csv", jsPsych.data.getDataAsCSV());
    }
 });
+
+
+
 
 </script>
 </html>
