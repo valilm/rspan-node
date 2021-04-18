@@ -101,6 +101,67 @@ var practice_block16 = {
 };
 
 
+//second practice block
+var practice_block21 = {
+  type: "single-stim",
+  stimulus: ['<p>In der Woche der letzten Spaghetti hatte ich das Gefühl, dass ich durchdrehe.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'practice', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var practice_block22 = {
+  type: "single-stim",
+  stimulus: ['<p>Möhre</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
+  is_html: true,
+};
+
+var practice_block23 = {
+  type: "single-stim",
+  stimulus: ['<p>Wenn die letzten Prüfungen vorbei sind, können wir eine wohlverdiente Pause machen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'practice', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var practice_block24 = {
+  type: "single-stim",
+  stimulus: ['<p>Ärmel</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
+  is_html: true,
+};
+
+var practice_block25 = {
+  type: "single-stim",
+  stimulus: ['<p>Nach einem langen Arbeitstag geht Peter oft in die Kneipe, um zu entspannen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'practice', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var practice_block26 = {
+  type: "single-stim",
+  stimulus: ['<p>Licht</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
+  is_html: true,
+};    
+
 //practice phase ends here
 
 //block 1
@@ -164,106 +225,6 @@ var exp_block16 = {
   is_html: true,
 };
 
-//block 2
-var exp_block21 = {
-  type: "single-stim",
-  stimulus: ['<p>Wir waren fünfzig Rasen auf dem Meer, bevor wir das Land nicht mehr sehen konnten.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'exp', response: '39'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var exp_block22 = {
-  type: "single-stim",
-  stimulus: ['<p>Küche</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'},
-  is_html: true,
-};
-
-var exp_block23 = {
-  type: "single-stim",
-  stimulus: ['<p>Während des ganzen Martyriums schienen die Geiseln nie die Hoffnung verloren zu haben.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'exp', response: '37'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var exp_block24 = {
-  type: "single-stim",
-  stimulus: ['<p>Gras</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'},
-  is_html: true,
-};
-
-var exp_block25 = {
-  type: "single-stim",
-  stimulus: ['<p>Paul hat Höhenangst und weigert sich, mit dem Flugzeug zu fliegen.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'exp', response: '37'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var exp_block26 = {
-  type: "single-stim",
-  stimulus: ['<p>Teufel</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'},
-  is_html: true,
-};
-
-var exp_block27 = {
-  type: "single-stim",
-  stimulus: ['<p>Der junge Bleistift hielt seine Augen geschlossen, bis er wieder schauen durfte.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'exp', response: '39'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var exp_block28 = {
-  type: "single-stim",
-  stimulus: ['<p>Arm</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'},
-  is_html: true,
-};
-
-var exp_block29 = {
-  type: "single-stim",
-  stimulus: ['<p>Die meisten Menschen, die lachen, sind besorgt darüber, ihr Gewicht zu kontrollieren.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'exp', response: '39'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var exp_block210 = {
-  type: "single-stim",
-  stimulus: ['<p>Schuld</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'},
-  is_html: true,
-};
 
 //block 3
 var exp_block31 = {
