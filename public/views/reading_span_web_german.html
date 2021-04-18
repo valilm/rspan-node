@@ -39,66 +39,6 @@ var instructions_block = {
    key_forward: 13,
 };
 
-//first practice block
-var practice_block11 = {
-  type: "single-stim",
-  stimuli: ['<p>Andreas wurde vom Polizisten angehalten, weil er den gelben Himmel überquert hatte.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'practice', response: '39'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var practice_block12 = {
-  type: "single-stim",
-  stimulus: ['<p>Ring</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
-  is_html: true,
-};
-
-var practice_block13 = {
-  type: "single-stim",
-  stimulus: ['<p>Im Winter kann man an der Küste sehr günstige Zimmer bekommen.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'practice', response: '37'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var practice_block14 = {
-  type: "single-stim",
-  stimulus: ['<p>Musik</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
-  is_html: true,
-};
-
-var practice_block15 = {
-  type: "single-stim",
-  stimulus: ['<p>Die Leute in unserer Stadt sind in der Weihnachtszeit viel spendabler und fröhlicher.</p>' +
-                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
-                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
-  choices: [37, 39],
-  timing_response: 10000,
-  is_html: true,
-  data: {phase: 'practice', response: '37'},
-  response_ends_trial: true,
-  timing_post_trial: 500,
-};
-
-var practice_block16 = {
-  type: "single-stim",
-  stimulus: ['<p>Tüte</p>'],
-  choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
-  is_html: true,
-};
 
 
 //second practice block
@@ -1394,13 +1334,7 @@ var recall_block = {
 //timeline structure
 var timeline = [];
 timeline.push(instructions_block);
-timeline.push(practice_block11);
-timeline.push(practice_block12);
-timeline.push(practice_block13);
-timeline.push(practice_block14);
-timeline.push(practice_block15);
-timeline.push(practice_block16);
-timeline.push(recall_block);
+    
 timeline.push(practice_block21);
 timeline.push(practice_block22);
 timeline.push(practice_block23);
