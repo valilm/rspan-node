@@ -1053,19 +1053,21 @@ var exp_block158 = {
 //recall block
 var recall_block = {
   type: 'survey-text',
-  preamble: ["<div style='margin-top: 20%'>An welche Wörter erinnerst du dich?</div>"],
+  preamble: ["<div style='margin-top: 20%'>An welche Wörter erinnern Sie sich?</div>"],
   questions: [" ", " ", " ", " ", " ", " "],
   rows: [2, 2, 2, 2, 2, 2],
   columns: [50, 50, 50, 50, 50, 50]
 };
     
-var closing_block = {
+/*
+//var closing_block = {
   type: 'closing',
   pages: ['<p><strong>Geschafft!</strong></p>' +
   '<p>Sehr gut! Sie haben den Gedächtnistest erfolgreich abgeschlossen.</p>' +
   '<p>Kehren Sie nun zum Fragebogen zurück, indem Sie diesen Tab jetzt schließen.</p>'],
 };
-
+*/
+    
 //timeline structure
 var timeline = [];
 timeline.push(instructions_block);
@@ -1184,7 +1186,7 @@ timeline.push(exp_block156);
 timeline.push(exp_block157);
 timeline.push(exp_block158);
 timeline.push(recall_block);
-timeline.push(closing_block);
+//timeline.push(closing_block);
 
 //function to save the data
 function saveData(filename, filedata){
