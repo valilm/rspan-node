@@ -1359,10 +1359,11 @@ var exp_block158 = {
   is_html: true,
 };
 
-var end_block = {
+var closing_block = {
   type: 'instructions',
-  pages: ['<p><strong>Gut gemacht!</strong></p>' +
-  '<p>Sie können den Tab jetzt schließen und zum Fragebogen zurückkehren</p>'],
+  pages: ['<p><strong>Geschafft!</strong></p>'+
+  '<p>Sie haben den Gedächtnistest erfolgreich abgeschlossen.'+
+  'Kehren Sie nun zum Fragebogen zurück, indem Sie diesen Tab jetzt schließen</p>'],
 };    
     
 //experimental phase ends here
@@ -1483,8 +1484,8 @@ timeline.push(exp_block106);
 timeline.push(exp_block107);
 timeline.push(exp_block108);
 timeline.push(recall_block);
-timeline.push(end_block);
-
+timeline.push(closing_block);
+// deleted timelines of block 11-15
 
     
 //function to save the data
