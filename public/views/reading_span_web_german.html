@@ -80,8 +80,6 @@ var practice_block16 = {
   choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
   is_html: true,
 };
-    
-
 
 //second practice block
 var practice_block21 = {
@@ -142,7 +140,7 @@ var practice_block26 = {
   stimulus: ['<p>Licht</p>'],
   choices: [100], timing_response: 1200, data: {phase: 'mem'}, data: {phase: 'mem_pra'},
   is_html: true,
-};    
+};
 
 //practice phase ends here
 
@@ -307,10 +305,68 @@ var exp_block210 = {
   choices: [100], timing_response: 1200, data: {phase: 'mem'},
   is_html: true,
 };
-  
 
-// deleted block 3
-    
+//block 3
+var exp_block31 = {
+  type: "single-stim",
+  stimulus: ['<p>Wenn Laura einkaufen geht, sucht sie immer nach den niedrigsten Fluten.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block32 = {
+  type: "single-stim",
+  stimulus: ['<p>Projekt</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block33 = {
+  type: "single-stim",
+  stimulus: ['<p>Wenn ich morgens aufstehe, füttere ich als Erstes meinen Hund.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block34 = {
+  type: "single-stim",
+  stimulus: ['<p>Tee</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block35 = {
+  type: "single-stim",
+  stimulus: ['<p>Nachdem ich beim Spiel so viel geschrien hatte, wusste ich, dass meine Stimme lang sein würde.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block36 = {
+  type: "single-stim",
+  stimulus: ['<p>Glück</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
 //block 4
 var exp_block41 = {
   type: "single-stim",
@@ -432,7 +488,46 @@ var exp_block412 = {
   is_html: true,
 };
 
-// deleted block 5
+//block 5
+var exp_block51 = {
+  type: "single-stim",
+  stimulus: ['<p>Marie sollte am neuen Einkaufszentrum anhalten, um ein paar Dinge zu besorgen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block52 = {
+  type: "single-stim",
+  stimulus: ['<p>Test</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block53 = {
+  type: "single-stim",
+  stimulus: ['<p>Wenn es kalt ist, will meine Mutter immer, dass ich eine Mütze trage.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block54 = {
+  type: "single-stim",
+  stimulus: ['<p>Hammer</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
 
 //block 6
 var exp_block61 = {
@@ -616,7 +711,46 @@ var exp_block78 = {
   is_html: true,
 };
 
-//deleted block 8
+//block 8
+var exp_block81 = {
+  type: "single-stim",
+  stimulus: ['<p>Die riesigen Wolken bedeckten die morgendliche Rutsche und es fing an zu regnen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block82 = {
+  type: "single-stim",
+  stimulus: ['<p>Tisch</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block83 = {
+  type: "single-stim",
+  stimulus: ['<p>Nach der ersten Verabredung wusste ich, dass Lindas Schwester einfach nicht mein Typ war.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block84 = {
+  type: "single-stim",
+  stimulus: ['<p>Viertel</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
 
 //block 9
 var exp_block91 = {
@@ -739,9 +873,147 @@ var exp_block912 = {
   is_html: true,
 };
 
-//deleted block 10
+//block 10
+var exp_block101 = {
+  type: "single-stim",
+  stimulus: ['<p>Jan brach sich den Arm, als er vom Baum auf den Boden fiel.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
 
-//deleted block 11
+var exp_block102 = {
+  type: "single-stim",
+  stimulus: ['<p>Reifen</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block103 = {
+  type: "single-stim",
+  stimulus: ['<p>Die meisten Leute sind sich einig, dass Montag der schlimmste Stab der Woche ist.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block104 = {
+  type: "single-stim",
+  stimulus: ['<p>Schwein</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block105 = {
+  type: "single-stim",
+  stimulus: ['<p>An warmen, sonnigen Nachmittagen gehe ich gern im Park spazieren.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block106 = {
+  type: "single-stim",
+  stimulus: ['<p>Traum</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block107 = {
+  type: "single-stim",
+  stimulus: ['<p>Mit großem Ehrgeiz überwand er alle Hindernisse und gewann das Rennen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block108 = {
+  type: "single-stim",
+  stimulus: ['<p>Rose</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+//block 11
+var exp_block111 = {
+  type: "single-stim",
+  stimulus: ['<p>Ein Mensch sollte wirklich nie aufgrund seiner Herkunft diskriminiert werden.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '37'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block112 = {
+  type: "single-stim",
+  stimulus: ['<p>Geist</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block113 = {
+  type: "single-stim",
+  stimulus: ['<p>Meine Mutter sagt mir immer, dass es nicht höflich ist zu glänzen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block114 = {
+  type: "single-stim",
+  stimulus: ['<p>Wald</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block115 = {
+  type: "single-stim",
+  stimulus: ['<p>Die Limonadenspieler entschlossen sich, zwei von drei Sätzen zu spielen.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block116 = {
+  type: "single-stim",
+  stimulus: ['<p>Kultur</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
 
 //block 12
 var exp_block121 = {
@@ -965,7 +1237,46 @@ var exp_block1312 = {
   is_html: true,
 };
 
-//deleted block 14
+//block 14
+var exp_block141 = {
+  type: "single-stim",
+  stimulus: ['<p>Tina hörte auf, sich mit dem Licht zu treffen, als sie erfuhr, dass er verheiratet war.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block142 = {
+  type: "single-stim",
+  stimulus: ['<p>Gewicht</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
+
+var exp_block143 = {
+  type: "single-stim",
+  stimulus: ['<p>Ich sagte meinen Schülern, sie würden eine Überraschung bekommen, wenn sie orange wären.</p>' +
+                '<div style="width:600px;margin:auto"><button class="jspsych-btn-yes">&larr;<br>ja</button>' +
+                '<div class="divider"/><button class="jspsych-btn-no">&rarr;<br>nein</button></div></p>'],
+  choices: [37, 39],
+  timing_response: 10000,
+  is_html: true,
+  data: {phase: 'exp', response: '39'},
+  response_ends_trial: true,
+  timing_post_trial: 500,
+};
+
+var exp_block144 = {
+  type: "single-stim",
+  stimulus: ['<p>Teich</p>'],
+  choices: [100], timing_response: 1200, data: {phase: 'mem'},
+  is_html: true,
+};
 
 //block 15
 var exp_block151 = {
@@ -1053,29 +1364,22 @@ var exp_block158 = {
 //recall block
 var recall_block = {
   type: 'survey-text',
-  preamble: ["<div style='margin-top: 20%'>An welche Wörter erinnern Sie sich?</div>"],
+  preamble: ["<div style='margin-top: 20%'>An welche Wörter erinnerst du dich?</div>"],
   questions: [" ", " ", " ", " ", " ", " "],
   rows: [2, 2, 2, 2, 2, 2],
   columns: [50, 50, 50, 50, 50, 50]
 };
-    
-/*
-//var closing_block = {
-  type: 'closing',
-  pages: ['<p><strong>Geschafft!</strong></p>' +
-  '<p>Sehr gut! Sie haben den Gedächtnistest erfolgreich abgeschlossen.</p>' +
-  '<p>Kehren Sie nun zum Fragebogen zurück, indem Sie diesen Tab jetzt schließen.</p>'],
-};
-*/
-    
+
 //timeline structure
 var timeline = [];
 timeline.push(instructions_block);
+timeline.push(practice_block11);
+timeline.push(practice_block12);
 timeline.push(practice_block13);
 timeline.push(practice_block14);
 timeline.push(practice_block15);
 timeline.push(practice_block16);
-timeline.push(recall_block);    
+timeline.push(recall_block);
 timeline.push(practice_block21);
 timeline.push(practice_block22);
 timeline.push(practice_block23);
@@ -1101,7 +1405,13 @@ timeline.push(exp_block28);
 timeline.push(exp_block29);
 timeline.push(exp_block210);
 timeline.push(recall_block);
-// deleted timeline block 3
+timeline.push(exp_block31);
+timeline.push(exp_block32);
+timeline.push(exp_block33);
+timeline.push(exp_block34);
+timeline.push(exp_block35);
+timeline.push(exp_block36);
+timeline.push(recall_block);
 timeline.push(exp_block41);
 timeline.push(exp_block42);
 timeline.push(exp_block43);
@@ -1115,7 +1425,11 @@ timeline.push(exp_block410);
 timeline.push(exp_block411);
 timeline.push(exp_block412);
 timeline.push(recall_block);
-//deleted timeline block 5
+timeline.push(exp_block51);
+timeline.push(exp_block52);
+timeline.push(exp_block53);
+timeline.push(exp_block54);
+timeline.push(recall_block);
 timeline.push(exp_block61);
 timeline.push(exp_block62);
 timeline.push(exp_block63);
@@ -1136,7 +1450,11 @@ timeline.push(exp_block76);
 timeline.push(exp_block77);
 timeline.push(exp_block78);
 timeline.push(recall_block);
-//deleted timeline block 8
+timeline.push(exp_block81);
+timeline.push(exp_block82);
+timeline.push(exp_block83);
+timeline.push(exp_block84);
+timeline.push(recall_block);
 timeline.push(exp_block91);
 timeline.push(exp_block92);
 timeline.push(exp_block93);
@@ -1150,44 +1468,17 @@ timeline.push(exp_block910);
 timeline.push(exp_block911);
 timeline.push(exp_block912);
 timeline.push(recall_block);
-//deteled timeline block 10
-//deleted timeline block 11
-timeline.push(exp_block121);
-timeline.push(exp_block122);
-timeline.push(exp_block123);
-timeline.push(exp_block124);
-timeline.push(exp_block125);
-timeline.push(exp_block126);
-timeline.push(exp_block127);
-timeline.push(exp_block128);
-timeline.push(exp_block129);
-timeline.push(exp_block1210);
+timeline.push(exp_block101);
+timeline.push(exp_block102);
+timeline.push(exp_block103);
+timeline.push(exp_block104);
+timeline.push(exp_block105);
+timeline.push(exp_block106);
+timeline.push(exp_block107);
+timeline.push(exp_block108);
 timeline.push(recall_block);
-timeline.push(exp_block131);
-timeline.push(exp_block132);
-timeline.push(exp_block133);
-timeline.push(exp_block134);
-timeline.push(exp_block135);
-timeline.push(exp_block136);
-timeline.push(exp_block137);
-timeline.push(exp_block138);
-timeline.push(exp_block139);
-timeline.push(exp_block1310);
-timeline.push(exp_block1311);
-timeline.push(exp_block1312);
-timeline.push(recall_block);
-//deleted block 14
-timeline.push(exp_block151);
-timeline.push(exp_block152);
-timeline.push(exp_block153);
-timeline.push(exp_block154);
-timeline.push(exp_block155);
-timeline.push(exp_block156);
-timeline.push(exp_block157);
-timeline.push(exp_block158);
-timeline.push(recall_block);
-//timeline.push(closing_block);
 
+    
 //function to save the data
 function saveData(filename, filedata){
    $.ajax({
